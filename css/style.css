@@ -1,0 +1,187 @@
+/* START Link Styling */
+/* Unvisited Link */
+.intro a:link,
+.where a:link,
+.more a:link {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.footer a:link {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/* Visitsed Link */
+.intro a:visited,
+.where a:visited,
+.more a:visited {
+  color: #FFB948;
+  text-decoration: underline;
+}
+
+.footer a:visited {
+  color: #4178BE;
+  text-decoration: underline;
+}
+
+/* Link Hover */
+.intro a:hover,
+.where a:hover,
+.more a:hover {
+  background-color: #5289CF;
+  border: #5289CF;
+}
+
+.footer a:hover {
+  cursor: pointer;
+}
+
+/* END Link Styling */
+
+/* START Body Styling */
+body {
+  margin: 0;
+  background-color: #4178BE;
+  /* Typography Declarations */
+  color: #FEFEFE;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica", sans-serif;
+}
+/* END Body Styling */
+
+/* START Masthead Styling */
+.masthead {
+  background-image: url('https://farm6.staticflickr.com/5587/14266052528_2a7e7f5ae4_k.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 6em 0;
+  margin-top: -.6em;
+  margin-left: -.75em;
+  margin-right: -.75em;
+  border-top: .5em solid #FFB948;
+}
+
+.masthead-h1,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead-intro {
+  /* Typography Declarations */
+  color: #FFF;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  margin-bottom: 0.1em;
+}
+
+.masthead-h1 {
+  /* Typography Declarations */
+  color: #FFF;
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  font-variant: small-caps;
+  margin-top: -0.1em;
+}
+/* END Masthead Styling */
+
+/* START Content Styling */
+.intro,
+.where,
+.more {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.intro > p,
+.where > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 125%;
+}
+
+.intro > h1,
+.where > h1,
+.more > h1 {
+  /* Typography Declarations */
+  font-weight: bold;
+  color: #FEFEFE;
+  font-variant: small-caps;
+  letter-spacing: 0.02em;
+}
+
+.more {
+  padding-bottom: 1em;
+  line-height: 125%;
+}
+
+.more .h3 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.more-quote {
+  border-left: solid #fefefe;
+  border-left-width: thin;
+  padding-left: 1em;
+}
+
+
+/* START Footer Styling */
+.footer {
+  background-color: #FFB948;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.footer > p {
+  /* Typography Declarations */
+  color: #FFFFFF;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 120%;
+}
+
+.icons > li {
+    display: inline-block;
+    padding: .5em 0;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.footer .icons li {
+	display: inline-block;
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	margin: 1.25rem 5px;
+	border: 1px solid #5289CF;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+
+.footer .icons > li:hover {
+	cursor: pointer;
+}
+
+.footer .instagram {
+	color: #3f729b;
+}
+
+.footer .twitter {
+	color: #55acee;
+}
+
+.footer .envelope {
+	color: #FFFFFF;
+}
+
+/* END Footer Styling */
